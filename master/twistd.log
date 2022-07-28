@@ -18266,3 +18266,784 @@
 2022-07-27 06:26:27+0800 [-] Stopping factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06411358>
 2022-07-27 06:26:28+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06411358>
 2022-07-27 06:27:03+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 14:55:13+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56207)
+2022-07-27 14:55:13+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56208)
+2022-07-27 14:55:27+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56205)
+2022-07-27 14:55:27+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56209)
+2022-07-27 14:55:28+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56206)
+2022-07-27 14:58:36+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56281)
+2022-07-27 14:58:36+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56279)
+2022-07-27 14:58:42+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56244)
+2022-07-27 14:58:42+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56243)
+2022-07-27 14:58:42+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56204)
+2022-07-27 15:19:15+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56496)
+2022-07-27 15:19:15+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56497)
+2022-07-27 15:19:15+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56498)
+2022-07-27 15:31:19+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56887)
+2022-07-27 15:31:19+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56891)
+2022-07-27 15:31:31+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56888)
+2022-07-27 15:31:31+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56890)
+2022-07-27 15:31:31+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=56889)
+2022-07-27 15:35:47+0800 [-] gitpoller: processing changes from "https://github.com/buildbot/hello-world.git"
+2022-07-27 15:35:47+0800 [-] gitpoller: processing changes from "https://github.com/ChungChyi/My-machine-learning-course-project.git"
+2022-07-27 15:35:48+0800 [-] gitpoller: processing 3 changes: ['67183126d1ff1080aae20837105c8ef23b115f26', '92c34a182a261ff591427c1dd878ab46a7ef7123', 'f8d3407bd02d7e9cd3fd05a4468ff8198611475b'] from "https://github.com/ChungChyi/My-machine-learning-course-project.git" branch "first_branch_720"
+2022-07-27 15:35:48+0800 [-] added change with revision 67183126d1ff1080aae20837105c8ef23b115f26 to database
+2022-07-27 15:35:48+0800 [-] added buildset 92 to database
+2022-07-27 15:35:49+0800 [-] added change with revision 92c34a182a261ff591427c1dd878ab46a7ef7123 to database
+2022-07-27 15:35:49+0800 [-] added buildset 93 to database
+2022-07-27 15:35:49+0800 [-] added change with revision f8d3407bd02d7e9cd3fd05a4468ff8198611475b to database
+2022-07-27 15:35:49+0800 [-] added buildset 94 to database
+2022-07-27 15:53:37+0800 [-] added buildset 95 to database
+2022-07-27 15:56:47+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=57303)
+2022-07-27 15:56:47+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 15:56:47+0800 [-] bot attached
+2022-07-27 15:56:47+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 15:56:47+0800 [-] starting build <Build runtests number:None results:success> using worker <WorkerForBuilder builder='runtests' worker='example-worker' state=AVAILABLE>
+2022-07-27 15:56:47+0800 [-] <Build runtests number:None results:success>.startBuild
+2022-07-27 15:56:47+0800 [-] [Contact] Builder runtests started
+2022-07-27 15:56:47+0800 [-] [Contact] Builder runtests started
+2022-07-27 15:56:47+0800 [-] acquireLocks(worker <Worker 'example-worker'>, locks [])
+2022-07-27 15:56:47+0800 [-] starting build <Build runtests number:64 results:success>.. pinging the worker <WorkerForBuilder builder='runtests' worker='example-worker' state=BUILDING>
+2022-07-27 15:56:47+0800 [-] sending ping
+2022-07-27 15:56:47+0800 [Broker,0,127.0.0.1] ping finished: success
+2022-07-27 15:56:47+0800 [-] <RemoteShellCommand '['git', '--version']'>: RemoteCommand.run [0]
+2022-07-27 15:56:47+0800 [-] command '['git', '--version']' in dir 'build'
+2022-07-27 15:56:48+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', '--version']'> rc=0
+2022-07-27 15:56:48+0800 [-] <RemoteCommand 'stat' at 12672424>: RemoteCommand.run [1]
+2022-07-27 15:56:48+0800 [Broker,0,127.0.0.1] <RemoteCommand 'stat' at 12672424> rc=2
+2022-07-27 15:56:48+0800 [-] <RemoteCommand 'listdir' at 10873776>: RemoteCommand.run [2]
+2022-07-27 15:56:48+0800 [Broker,0,127.0.0.1] <RemoteCommand 'listdir' at 10873776> rc=0
+2022-07-27 15:56:48+0800 [-] <RemoteShellCommand '['git', 'fetch', '-f', '-t', 'https://github.com/buildbot/hello-world.git', 'HEAD', '--progress']'>: RemoteCommand.run [3]
+2022-07-27 15:56:48+0800 [-] command '['git', 'fetch', '-f', '-t', 'https://github.com/buildbot/hello-world.git', 'HEAD', '--progress']' in dir 'build'
+2022-07-27 15:56:50+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'fetch', '-f', '-t', 'https://github.com/buildbot/hello-world.git', 'HEAD', '--progress']'> rc=0
+2022-07-27 15:56:50+0800 [-] <RemoteShellCommand '['git', 'checkout', '-f', 'FETCH_HEAD']'>: RemoteCommand.run [4]
+2022-07-27 15:56:50+0800 [-] command '['git', 'checkout', '-f', 'FETCH_HEAD']' in dir 'build'
+2022-07-27 15:56:51+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-f', 'FETCH_HEAD']'> rc=0
+2022-07-27 15:56:51+0800 [-] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'>: RemoteCommand.run [5]
+2022-07-27 15:56:51+0800 [-] command '['git', 'rev-parse', 'HEAD']' in dir 'build'
+2022-07-27 15:56:51+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'> rc=0
+2022-07-27 15:56:51+0800 [-] Got Git revision 7f8e719e30f3f6b98558541d21dc8b589a4131be
+2022-07-27 15:56:51+0800 [-] releaseLocks(Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental')): []
+2022-07-27 15:56:51+0800 [-]  step 'git' complete: success (None)
+2022-07-27 15:56:51+0800 [-] <RemoteShellCommand '['trial', 'hello']'>: RemoteCommand.run [6]
+2022-07-27 15:56:51+0800 [-] command '['trial', 'hello']' in dir 'build'
+2022-07-27 15:56:52+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['trial', 'hello']'> rc=0
+2022-07-27 15:56:52+0800 [-] releaseLocks(ShellCommand(command=['trial', 'hello'], env={'PYTHONPATH': '.'})): []
+2022-07-27 15:56:52+0800 [-]  step 'shell' complete: success (None)
+2022-07-27 15:56:52+0800 [-]  <Build runtests number:64 results:success>: build finished
+2022-07-27 15:56:52+0800 [-] releaseLocks(<Worker 'example-worker'>): []
+2022-07-27 15:58:06+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57313)
+2022-07-27 15:58:06+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57314)
+2022-07-27 15:58:06+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57315)
+2022-07-27 16:00:22+0800 [-] Loading buildbot.tac...
+2022-07-27 16:00:24+0800 [-] Loaded.
+2022-07-27 16:00:24+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 16:00:24+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 16:00:24+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 16:00:24+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 16:00:24+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 16:00:24+0800 [-] setting database journal mode to 'wal'
+2022-07-27 16:00:25+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 16:00:25+0800 [-] adding 2 new services, removing 0
+2022-07-27 16:00:25+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06562B20>
+2022-07-27 16:00:25+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 16:00:25+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:00:25+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:00:25+0800 [-] adding 2 new builders, removing 0
+2022-07-27 16:00:25+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 16:00:25+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:00:25+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:00:25+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:00:25+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:00:25+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:00:25+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:00:25+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:00:25+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:00:28+0800 [-] BuildbotSite starting on 8010
+2022-07-27 16:00:28+0800 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x065AA640>
+2022-07-27 16:00:28+0800 [-] adding 2 new workers, removing 0
+2022-07-27 16:00:28+0800 [-] PBServerFactory starting on 9989
+2022-07-27 16:00:28+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x065AAC28>
+2022-07-27 16:00:28+0800 [-] BuildMaster is running
+2022-07-27 16:00:28+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=57431)
+2022-07-27 16:00:28+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 16:00:28+0800 [-] bot attached
+2022-07-27 16:00:28+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 16:01:00+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 16:07:18+0800 [IRC,IrcStatusBot] Received command `notify` from zzm on #zqchannel
+2022-07-27 16:07:31+0800 [IRC,IrcStatusBot] Received command `notify` from zzm on #zqchannel
+2022-07-27 16:07:32+0800 [IRC,IrcStatusBot] Unhandled Error
+	Traceback (most recent call last):
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1750, in gotResult
+	    current_context.run(_inlineCallbacks, r, gen, status)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1656, in _inlineCallbacks
+	    result = current_context.run(
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\python\failure.py", line 514, in throwExceptionIntoGenerator
+	    return g.throw(self.type, self.value, self.tb)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\words.py", line 485, in handleMessage
+	    self.bot.log_err(e)
+	--- <exception caught here> ---
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\words.py", line 480, in handleMessage
+	    result = yield meth(args.strip(), **kwargs)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1656, in _inlineCallbacks
+	    result = current_context.run(
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\python\failure.py", line 514, in throwExceptionIntoGenerator
+	    return g.throw(self.type, self.value, self.tb)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\irc.py", line 175, in command_NOTIFY
+	    (yield self.op_required('notify')):
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1656, in _inlineCallbacks
+	    result = current_context.run(
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\python\failure.py", line 514, in throwExceptionIntoGenerator
+	    return g.throw(self.type, self.value, self.tb)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\irc.py", line 124, in op_required
+	    ops = yield self.bot.getChannelOps(self.channel.id)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1660, in _inlineCallbacks
+	    result = current_context.run(gen.send, result)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\irc.py", line 342, in getChannelOps
+	    return [n[1:] for n in names if n[0] in '@&~%']
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\irc.py", line 342, in <listcomp>
+	    return [n[1:] for n in names if n[0] in '@&~%']
+	builtins.IndexError: string index out of range
+	
+2022-07-27 16:07:42+0800 [IRC,IrcStatusBot] Received command `notify` from zzm
+2022-07-27 16:07:52+0800 [IRC,IrcStatusBot] Received command `notify` from zzm
+2022-07-27 16:08:10+0800 [IRC,IrcStatusBot] Received command `force` from zzm
+2022-07-27 16:08:10+0800 [-] added buildset 96 to database
+2022-07-27 16:08:10+0800 [-] starting build <Build runtests number:None results:success> using worker <WorkerForBuilder builder='runtests' worker='example-worker' state=AVAILABLE>
+2022-07-27 16:08:10+0800 [-] <Build runtests number:None results:success>.startBuild
+2022-07-27 16:08:10+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:08:10+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:08:10+0800 [-] acquireLocks(worker <Worker 'example-worker'>, locks [])
+2022-07-27 16:08:10+0800 [-] starting build <Build runtests number:65 results:success>.. pinging the worker <WorkerForBuilder builder='runtests' worker='example-worker' state=BUILDING>
+2022-07-27 16:08:10+0800 [-] sending ping
+2022-07-27 16:08:10+0800 [Broker,0,127.0.0.1] ping finished: success
+2022-07-27 16:08:10+0800 [-] <RemoteShellCommand '['git', '--version']'>: RemoteCommand.run [0]
+2022-07-27 16:08:10+0800 [-] command '['git', '--version']' in dir 'build'
+2022-07-27 16:08:11+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', '--version']'> rc=0
+2022-07-27 16:08:11+0800 [-] <RemoteCommand 'stat' at 4104520>: RemoteCommand.run [1]
+2022-07-27 16:08:11+0800 [Broker,0,127.0.0.1] <RemoteCommand 'stat' at 4104520> rc=2
+2022-07-27 16:08:11+0800 [-] <RemoteCommand 'listdir' at 4106464>: RemoteCommand.run [2]
+2022-07-27 16:08:11+0800 [Broker,0,127.0.0.1] <RemoteCommand 'listdir' at 4106464> rc=0
+2022-07-27 16:08:11+0800 [-] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'>: RemoteCommand.run [3]
+2022-07-27 16:08:11+0800 [-] command '['git', 'cat-file', '-e', 'HEAD']' in dir 'build'
+2022-07-27 16:08:11+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'> rc=0
+2022-07-27 16:08:11+0800 [-] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'>: RemoteCommand.run [4]
+2022-07-27 16:08:11+0800 [-] command '['git', 'checkout', '-f', 'HEAD']' in dir 'build'
+2022-07-27 16:08:11+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'> rc=0
+2022-07-27 16:08:11+0800 [-] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'>: RemoteCommand.run [5]
+2022-07-27 16:08:11+0800 [-] command '['git', 'checkout', '-B', 'master']' in dir 'build'
+2022-07-27 16:08:12+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'> rc=0
+2022-07-27 16:08:12+0800 [-] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'>: RemoteCommand.run [6]
+2022-07-27 16:08:12+0800 [-] command '['git', 'rev-parse', 'HEAD']' in dir 'build'
+2022-07-27 16:08:12+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'> rc=0
+2022-07-27 16:08:12+0800 [-] Got Git revision 7f8e719e30f3f6b98558541d21dc8b589a4131be
+2022-07-27 16:08:12+0800 [-] releaseLocks(Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental')): []
+2022-07-27 16:08:12+0800 [-]  step 'git' complete: success (None)
+2022-07-27 16:08:12+0800 [-] <RemoteShellCommand '['trial', 'hello']'>: RemoteCommand.run [7]
+2022-07-27 16:08:12+0800 [-] command '['trial', 'hello']' in dir 'build'
+2022-07-27 16:08:13+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['trial', 'hello']'> rc=0
+2022-07-27 16:08:13+0800 [-] releaseLocks(ShellCommand(command=['trial', 'hello'], env={'PYTHONPATH': '.'})): []
+2022-07-27 16:08:13+0800 [-]  step 'shell' complete: success (None)
+2022-07-27 16:08:13+0800 [-]  <Build runtests number:65 results:success>: build finished
+2022-07-27 16:08:13+0800 [-] releaseLocks(<Worker 'example-worker'>): []
+2022-07-27 16:08:13+0800 [-] sending mail (1095 bytes) to ['351176904@qq.com']
+2022-07-27 16:08:13+0800 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x065D6BC8>
+2022-07-27 16:08:15+0800 [Uninitialized] SMTP Client retrying server. Retry: 5
+2022-07-27 16:08:17+0800 [Uninitialized] SMTP Client retrying server. Retry: 4
+2022-07-27 16:08:19+0800 [Uninitialized] SMTP Client retrying server. Retry: 3
+2022-07-27 16:08:21+0800 [Uninitialized] SMTP Client retrying server. Retry: 2
+2022-07-27 16:08:23+0800 [Uninitialized] SMTP Client retrying server. Retry: 1
+2022-07-27 16:08:25+0800 [Uninitialized] Got exception when handling reporter events
+	Traceback (most recent call last):
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1750, in gotResult
+	    current_context.run(_inlineCallbacks, r, gen, status)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1656, in _inlineCallbacks
+	    result = current_context.run(
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\python\failure.py", line 514, in throwExceptionIntoGenerator
+	    return g.throw(self.type, self.value, self.tb)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\base.py", line 95, in _got_event
+	    log.err(e, 'Got exception when handling reporter events')
+	--- <exception caught here> ---
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\base.py", line 93, in _got_event
+	    yield self.sendMessage(reports)
+	twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+	
+2022-07-27 16:08:25+0800 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x065D6BC8>
+2022-07-27 16:09:27+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57511)
+2022-07-27 16:09:27+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57516)
+2022-07-27 16:09:27+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57514)
+2022-07-27 16:09:27+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57510)
+2022-07-27 16:09:27+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57513)
+2022-07-27 16:22:25+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57983)
+2022-07-27 16:22:25+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57984)
+2022-07-27 16:22:25+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57986)
+2022-07-27 16:22:25+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=57985)
+2022-07-27 16:24:48+0800 [-] Loading buildbot.tac...
+2022-07-27 16:24:50+0800 [-] Loaded.
+2022-07-27 16:24:50+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 16:24:50+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 16:24:50+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 16:24:50+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 16:24:50+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 16:24:50+0800 [-] setting database journal mode to 'wal'
+2022-07-27 16:24:50+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 16:24:51+0800 [-] adding 2 new services, removing 0
+2022-07-27 16:24:51+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06842AF0>
+2022-07-27 16:24:51+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 16:24:51+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:24:51+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:24:51+0800 [-] adding 2 new builders, removing 0
+2022-07-27 16:24:51+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 16:24:51+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:24:51+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:24:51+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:24:51+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:24:51+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:24:51+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:24:51+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:24:51+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:24:51+0800 [-] BuildbotSite starting on 8010
+2022-07-27 16:24:51+0800 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x06897328>
+2022-07-27 16:24:51+0800 [-] adding 2 new workers, removing 0
+2022-07-27 16:24:51+0800 [-] PBServerFactory starting on 9989
+2022-07-27 16:24:51+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x068ACB20>
+2022-07-27 16:24:51+0800 [-] BuildMaster is running
+2022-07-27 16:24:51+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=58237)
+2022-07-27 16:24:51+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 16:24:51+0800 [-] bot attached
+2022-07-27 16:24:51+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 16:25:23+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 16:26:27+0800 [IRC,IrcStatusBot] Received command `commands` from zzm on #zqchannel
+2022-07-27 16:26:33+0800 [IRC,IrcStatusBot] Received command `notify` from zzm
+2022-07-27 16:26:46+0800 [IRC,IrcStatusBot] Received command `force` from zzm
+2022-07-27 16:26:46+0800 [-] added buildset 97 to database
+2022-07-27 16:26:46+0800 [-] starting build <Build runtests number:None results:success> using worker <WorkerForBuilder builder='runtests' worker='example-worker' state=AVAILABLE>
+2022-07-27 16:26:46+0800 [-] <Build runtests number:None results:success>.startBuild
+2022-07-27 16:26:46+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:26:46+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:26:46+0800 [-] acquireLocks(worker <Worker 'example-worker'>, locks [])
+2022-07-27 16:26:46+0800 [-] starting build <Build runtests number:66 results:success>.. pinging the worker <WorkerForBuilder builder='runtests' worker='example-worker' state=BUILDING>
+2022-07-27 16:26:46+0800 [-] sending ping
+2022-07-27 16:26:46+0800 [Broker,0,127.0.0.1] ping finished: success
+2022-07-27 16:26:46+0800 [-] <RemoteShellCommand '['git', '--version']'>: RemoteCommand.run [0]
+2022-07-27 16:26:46+0800 [-] command '['git', '--version']' in dir 'build'
+2022-07-27 16:26:46+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', '--version']'> rc=0
+2022-07-27 16:26:46+0800 [-] <RemoteCommand 'stat' at 91302688>: RemoteCommand.run [1]
+2022-07-27 16:26:46+0800 [Broker,0,127.0.0.1] <RemoteCommand 'stat' at 91302688> rc=2
+2022-07-27 16:26:46+0800 [-] <RemoteCommand 'listdir' at 10789696>: RemoteCommand.run [2]
+2022-07-27 16:26:46+0800 [Broker,0,127.0.0.1] <RemoteCommand 'listdir' at 10789696> rc=0
+2022-07-27 16:26:46+0800 [-] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'>: RemoteCommand.run [3]
+2022-07-27 16:26:46+0800 [-] command '['git', 'cat-file', '-e', 'HEAD']' in dir 'build'
+2022-07-27 16:26:47+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'> rc=0
+2022-07-27 16:26:47+0800 [-] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'>: RemoteCommand.run [4]
+2022-07-27 16:26:47+0800 [-] command '['git', 'checkout', '-f', 'HEAD']' in dir 'build'
+2022-07-27 16:26:47+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'> rc=0
+2022-07-27 16:26:47+0800 [-] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'>: RemoteCommand.run [5]
+2022-07-27 16:26:47+0800 [-] command '['git', 'checkout', '-B', 'master']' in dir 'build'
+2022-07-27 16:26:47+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'> rc=0
+2022-07-27 16:26:47+0800 [-] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'>: RemoteCommand.run [6]
+2022-07-27 16:26:47+0800 [-] command '['git', 'rev-parse', 'HEAD']' in dir 'build'
+2022-07-27 16:26:47+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'> rc=0
+2022-07-27 16:26:47+0800 [-] Got Git revision 7f8e719e30f3f6b98558541d21dc8b589a4131be
+2022-07-27 16:26:47+0800 [-] releaseLocks(Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental')): []
+2022-07-27 16:26:47+0800 [-]  step 'git' complete: success (None)
+2022-07-27 16:26:47+0800 [-] <RemoteShellCommand '['trial', 'hello']'>: RemoteCommand.run [7]
+2022-07-27 16:26:47+0800 [-] command '['trial', 'hello']' in dir 'build'
+2022-07-27 16:26:48+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['trial', 'hello']'> rc=0
+2022-07-27 16:26:48+0800 [-] releaseLocks(ShellCommand(command=['trial', 'hello'], env={'PYTHONPATH': '.'})): []
+2022-07-27 16:26:48+0800 [-]  step 'shell' complete: success (None)
+2022-07-27 16:26:48+0800 [-]  <Build runtests number:66 results:success>: build finished
+2022-07-27 16:26:48+0800 [-] releaseLocks(<Worker 'example-worker'>): []
+2022-07-27 16:26:48+0800 [-] sending mail (1095 bytes) to ['351176904@qq.com']
+2022-07-27 16:26:48+0800 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x00A6DB38>
+2022-07-27 16:26:51+0800 [Uninitialized] SMTP Client retrying server. Retry: 5
+2022-07-27 16:26:53+0800 [Uninitialized] SMTP Client retrying server. Retry: 4
+2022-07-27 16:26:55+0800 [Uninitialized] SMTP Client retrying server. Retry: 3
+2022-07-27 16:26:57+0800 [Uninitialized] SMTP Client retrying server. Retry: 2
+2022-07-27 16:26:59+0800 [Uninitialized] SMTP Client retrying server. Retry: 1
+2022-07-27 16:27:01+0800 [Uninitialized] Got exception when handling reporter events
+	Traceback (most recent call last):
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1750, in gotResult
+	    current_context.run(_inlineCallbacks, r, gen, status)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1656, in _inlineCallbacks
+	    result = current_context.run(
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\python\failure.py", line 514, in throwExceptionIntoGenerator
+	    return g.throw(self.type, self.value, self.tb)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\base.py", line 95, in _got_event
+	    log.err(e, 'Got exception when handling reporter events')
+	--- <exception caught here> ---
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\base.py", line 93, in _got_event
+	    yield self.sendMessage(reports)
+	twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+	
+2022-07-27 16:27:01+0800 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x00A6DB38>
+2022-07-27 16:39:22+0800 [-] Loading buildbot.tac...
+2022-07-27 16:39:24+0800 [-] Loaded.
+2022-07-27 16:39:24+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 16:39:24+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 16:39:24+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 16:39:24+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 16:39:24+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 16:39:24+0800 [-] setting database journal mode to 'wal'
+2022-07-27 16:39:24+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 16:39:24+0800 [-] adding 2 new services, removing 0
+2022-07-27 16:39:24+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06BB77C0>
+2022-07-27 16:39:24+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 16:39:24+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:39:24+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:39:24+0800 [-] adding 2 new builders, removing 0
+2022-07-27 16:39:25+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 16:39:25+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:39:25+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:39:25+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:39:25+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:39:25+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:39:25+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:39:25+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:39:25+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:39:25+0800 [-] BuildbotSite starting on 8010
+2022-07-27 16:39:25+0800 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x0395DC58>
+2022-07-27 16:39:25+0800 [-] adding 2 new workers, removing 0
+2022-07-27 16:39:25+0800 [-] PBServerFactory starting on 9989
+2022-07-27 16:39:25+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x06C097D8>
+2022-07-27 16:39:25+0800 [-] BuildMaster is running
+2022-07-27 16:39:26+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=59888)
+2022-07-27 16:39:26+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 16:39:26+0800 [-] bot attached
+2022-07-27 16:39:26+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 16:39:59+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 16:40:30+0800 [IRC,IrcStatusBot] Received command `notify` from zzm
+2022-07-27 16:40:33+0800 [IRC,IrcStatusBot] Received command `force` from zzm
+2022-07-27 16:40:33+0800 [-] added buildset 98 to database
+2022-07-27 16:40:33+0800 [-] starting build <Build runtests number:None results:success> using worker <WorkerForBuilder builder='runtests' worker='example-worker' state=AVAILABLE>
+2022-07-27 16:40:33+0800 [-] <Build runtests number:None results:success>.startBuild
+2022-07-27 16:40:33+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:40:33+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:40:33+0800 [-] acquireLocks(worker <Worker 'example-worker'>, locks [])
+2022-07-27 16:40:33+0800 [-] starting build <Build runtests number:67 results:success>.. pinging the worker <WorkerForBuilder builder='runtests' worker='example-worker' state=BUILDING>
+2022-07-27 16:40:33+0800 [-] sending ping
+2022-07-27 16:40:33+0800 [Broker,0,127.0.0.1] ping finished: success
+2022-07-27 16:40:33+0800 [-] <RemoteShellCommand '['git', '--version']'>: RemoteCommand.run [0]
+2022-07-27 16:40:33+0800 [-] command '['git', '--version']' in dir 'build'
+2022-07-27 16:40:34+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', '--version']'> rc=0
+2022-07-27 16:40:34+0800 [-] <RemoteCommand 'stat' at 95320816>: RemoteCommand.run [1]
+2022-07-27 16:40:34+0800 [Broker,0,127.0.0.1] <RemoteCommand 'stat' at 95320816> rc=2
+2022-07-27 16:40:34+0800 [-] <RemoteCommand 'listdir' at 14734216>: RemoteCommand.run [2]
+2022-07-27 16:40:34+0800 [Broker,0,127.0.0.1] <RemoteCommand 'listdir' at 14734216> rc=0
+2022-07-27 16:40:34+0800 [-] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'>: RemoteCommand.run [3]
+2022-07-27 16:40:34+0800 [-] command '['git', 'cat-file', '-e', 'HEAD']' in dir 'build'
+2022-07-27 16:40:34+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'> rc=0
+2022-07-27 16:40:34+0800 [-] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'>: RemoteCommand.run [4]
+2022-07-27 16:40:34+0800 [-] command '['git', 'checkout', '-f', 'HEAD']' in dir 'build'
+2022-07-27 16:40:34+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'> rc=0
+2022-07-27 16:40:34+0800 [-] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'>: RemoteCommand.run [5]
+2022-07-27 16:40:34+0800 [-] command '['git', 'checkout', '-B', 'master']' in dir 'build'
+2022-07-27 16:40:35+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'> rc=0
+2022-07-27 16:40:35+0800 [-] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'>: RemoteCommand.run [6]
+2022-07-27 16:40:35+0800 [-] command '['git', 'rev-parse', 'HEAD']' in dir 'build'
+2022-07-27 16:40:35+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'> rc=0
+2022-07-27 16:40:35+0800 [-] Got Git revision 7f8e719e30f3f6b98558541d21dc8b589a4131be
+2022-07-27 16:40:35+0800 [-] releaseLocks(Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental')): []
+2022-07-27 16:40:35+0800 [-]  step 'git' complete: success (None)
+2022-07-27 16:40:35+0800 [-] <RemoteShellCommand '['trial', 'hello']'>: RemoteCommand.run [7]
+2022-07-27 16:40:35+0800 [-] command '['trial', 'hello']' in dir 'build'
+2022-07-27 16:40:36+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['trial', 'hello']'> rc=0
+2022-07-27 16:40:36+0800 [-] releaseLocks(ShellCommand(command=['trial', 'hello'], env={'PYTHONPATH': '.'})): []
+2022-07-27 16:40:36+0800 [-]  step 'shell' complete: success (None)
+2022-07-27 16:40:36+0800 [-]  <Build runtests number:67 results:success>: build finished
+2022-07-27 16:40:36+0800 [-] releaseLocks(<Worker 'example-worker'>): []
+2022-07-27 16:40:36+0800 [-] sending mail (1095 bytes) to ['351176904@qq.com']
+2022-07-27 16:40:36+0800 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x00E2BFE8>
+2022-07-27 16:40:57+0800 [Uninitialized] SMTP Client retrying server. Retry: 5
+2022-07-27 16:41:18+0800 [Uninitialized] SMTP Client retrying server. Retry: 4
+2022-07-27 16:41:39+0800 [Uninitialized] SMTP Client retrying server. Retry: 3
+2022-07-27 16:42:00+0800 [Uninitialized] SMTP Client retrying server. Retry: 2
+2022-07-27 16:42:21+0800 [Uninitialized] SMTP Client retrying server. Retry: 1
+2022-07-27 16:42:42+0800 [Uninitialized] Got exception when handling reporter events
+	Traceback (most recent call last):
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1750, in gotResult
+	    current_context.run(_inlineCallbacks, r, gen, status)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1656, in _inlineCallbacks
+	    result = current_context.run(
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\python\failure.py", line 514, in throwExceptionIntoGenerator
+	    return g.throw(self.type, self.value, self.tb)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\base.py", line 95, in _got_event
+	    log.err(e, 'Got exception when handling reporter events')
+	--- <exception caught here> ---
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\base.py", line 93, in _got_event
+	    yield self.sendMessage(reports)
+	twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+	
+2022-07-27 16:42:42+0800 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x00E2BFE8>
+2022-07-27 16:43:47+0800 [-] Loading buildbot.tac...
+2022-07-27 16:43:49+0800 [-] Loaded.
+2022-07-27 16:43:49+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 16:43:49+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 16:43:49+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 16:43:49+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 16:43:49+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 16:43:49+0800 [-] setting database journal mode to 'wal'
+2022-07-27 16:43:49+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 16:43:49+0800 [-] adding 2 new services, removing 0
+2022-07-27 16:43:49+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x072D1C58>
+2022-07-27 16:43:49+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 16:43:49+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:43:49+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:43:49+0800 [-] adding 2 new builders, removing 0
+2022-07-27 16:43:50+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 16:43:50+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:43:50+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:43:50+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:43:50+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:43:50+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:43:50+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:43:50+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:43:50+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:43:50+0800 [-] BuildbotSite starting on 8010
+2022-07-27 16:43:50+0800 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x05FB5C28>
+2022-07-27 16:43:50+0800 [-] adding 2 new workers, removing 0
+2022-07-27 16:43:50+0800 [-] PBServerFactory starting on 9989
+2022-07-27 16:43:50+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x07568B38>
+2022-07-27 16:43:50+0800 [-] BuildMaster is running
+2022-07-27 16:43:51+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=60010)
+2022-07-27 16:43:51+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 16:43:51+0800 [-] bot attached
+2022-07-27 16:43:51+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 16:44:27+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 16:44:27+0800 [IRC,IrcStatusBot] Received command `force` from zzm
+2022-07-27 16:44:27+0800 [-] added buildset 99 to database
+2022-07-27 16:44:27+0800 [-] starting build <Build runtests number:None results:success> using worker <WorkerForBuilder builder='runtests' worker='example-worker' state=AVAILABLE>
+2022-07-27 16:44:27+0800 [-] <Build runtests number:None results:success>.startBuild
+2022-07-27 16:44:27+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:44:27+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:44:27+0800 [-] acquireLocks(worker <Worker 'example-worker'>, locks [])
+2022-07-27 16:44:27+0800 [-] starting build <Build runtests number:68 results:success>.. pinging the worker <WorkerForBuilder builder='runtests' worker='example-worker' state=BUILDING>
+2022-07-27 16:44:27+0800 [-] sending ping
+2022-07-27 16:44:27+0800 [Broker,0,127.0.0.1] ping finished: success
+2022-07-27 16:44:27+0800 [-] <RemoteShellCommand '['git', '--version']'>: RemoteCommand.run [0]
+2022-07-27 16:44:27+0800 [-] command '['git', '--version']' in dir 'build'
+2022-07-27 16:44:28+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', '--version']'> rc=0
+2022-07-27 16:44:28+0800 [-] <RemoteCommand 'stat' at 128198760>: RemoteCommand.run [1]
+2022-07-27 16:44:28+0800 [Broker,0,127.0.0.1] <RemoteCommand 'stat' at 128198760> rc=2
+2022-07-27 16:44:28+0800 [-] <RemoteCommand 'listdir' at 128258328>: RemoteCommand.run [2]
+2022-07-27 16:44:28+0800 [Broker,0,127.0.0.1] <RemoteCommand 'listdir' at 128258328> rc=0
+2022-07-27 16:44:28+0800 [-] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'>: RemoteCommand.run [3]
+2022-07-27 16:44:28+0800 [-] command '['git', 'cat-file', '-e', 'HEAD']' in dir 'build'
+2022-07-27 16:44:28+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'> rc=0
+2022-07-27 16:44:28+0800 [-] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'>: RemoteCommand.run [4]
+2022-07-27 16:44:28+0800 [-] command '['git', 'checkout', '-f', 'HEAD']' in dir 'build'
+2022-07-27 16:44:28+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'> rc=0
+2022-07-27 16:44:28+0800 [-] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'>: RemoteCommand.run [5]
+2022-07-27 16:44:28+0800 [-] command '['git', 'checkout', '-B', 'master']' in dir 'build'
+2022-07-27 16:44:29+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'> rc=0
+2022-07-27 16:44:29+0800 [-] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'>: RemoteCommand.run [6]
+2022-07-27 16:44:29+0800 [-] command '['git', 'rev-parse', 'HEAD']' in dir 'build'
+2022-07-27 16:44:29+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'> rc=0
+2022-07-27 16:44:29+0800 [-] Got Git revision 7f8e719e30f3f6b98558541d21dc8b589a4131be
+2022-07-27 16:44:29+0800 [-] releaseLocks(Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental')): []
+2022-07-27 16:44:29+0800 [-]  step 'git' complete: success (None)
+2022-07-27 16:44:29+0800 [-] <RemoteShellCommand '['trial', 'hello']'>: RemoteCommand.run [7]
+2022-07-27 16:44:29+0800 [-] command '['trial', 'hello']' in dir 'build'
+2022-07-27 16:44:30+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['trial', 'hello']'> rc=0
+2022-07-27 16:44:30+0800 [-] releaseLocks(ShellCommand(command=['trial', 'hello'], env={'PYTHONPATH': '.'})): []
+2022-07-27 16:44:30+0800 [-]  step 'shell' complete: success (None)
+2022-07-27 16:44:30+0800 [-]  <Build runtests number:68 results:success>: build finished
+2022-07-27 16:44:30+0800 [-] releaseLocks(<Worker 'example-worker'>): []
+2022-07-27 16:44:30+0800 [-] sending mail (1095 bytes) to ['351176904@qq.com']
+2022-07-27 16:44:30+0800 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x07585BE0>
+2022-07-27 16:44:31+0800 [ESMTPSender,client] Got exception when handling reporter events
+	Traceback (most recent call last):
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1750, in gotResult
+	    current_context.run(_inlineCallbacks, r, gen, status)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\internet\defer.py", line 1656, in _inlineCallbacks
+	    result = current_context.run(
+	  File "d:\buildbot-test\master\venv\lib\site-packages\twisted\python\failure.py", line 514, in throwExceptionIntoGenerator
+	    return g.throw(self.type, self.value, self.tb)
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\base.py", line 95, in _got_event
+	    log.err(e, 'Got exception when handling reporter events')
+	--- <exception caught here> ---
+	  File "d:\buildbot-test\master\venv\lib\site-packages\buildbot\reporters\base.py", line 93, in _got_event
+	    yield self.sendMessage(reports)
+	twisted.mail._except.SMTPDeliveryError: 553 Mail from must equal authorized user
+	>>> UFJBV0NGTE9GVllLVkJJUQ==
+	<<< 235 Authentication successful
+	>>> MAIL FROM:<buildbot@example.org>
+	<<< 553 Mail from must equal authorized user
+	
+	
+2022-07-27 16:44:31+0800 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x07585BE0>
+2022-07-27 16:45:57+0800 [-] Loading buildbot.tac...
+2022-07-27 16:45:59+0800 [-] Loaded.
+2022-07-27 16:45:59+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 16:45:59+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 16:45:59+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 16:45:59+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 16:45:59+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 16:45:59+0800 [-] setting database journal mode to 'wal'
+2022-07-27 16:46:00+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 16:46:00+0800 [-] adding 2 new services, removing 0
+2022-07-27 16:46:00+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x067C2BF8>
+2022-07-27 16:46:00+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 16:46:00+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:46:00+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 16:46:00+0800 [-] adding 2 new builders, removing 0
+2022-07-27 16:46:00+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 16:46:00+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:46:00+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:46:00+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:46:00+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:46:00+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 16:46:00+0800 [-] initializing www plugin 'console_view'
+2022-07-27 16:46:00+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 16:46:00+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 16:46:00+0800 [-] BuildbotSite starting on 8010
+2022-07-27 16:46:00+0800 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x06823880>
+2022-07-27 16:46:00+0800 [-] adding 2 new workers, removing 0
+2022-07-27 16:46:00+0800 [-] PBServerFactory starting on 9989
+2022-07-27 16:46:00+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x0682CB20>
+2022-07-27 16:46:00+0800 [-] BuildMaster is running
+2022-07-27 16:46:01+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=60076)
+2022-07-27 16:46:01+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 16:46:01+0800 [-] bot attached
+2022-07-27 16:46:01+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 16:46:31+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 16:46:43+0800 [IRC,IrcStatusBot] Received command `force` from zzm
+2022-07-27 16:46:43+0800 [-] added buildset 100 to database
+2022-07-27 16:46:43+0800 [-] starting build <Build runtests number:None results:success> using worker <WorkerForBuilder builder='runtests' worker='example-worker' state=AVAILABLE>
+2022-07-27 16:46:43+0800 [-] <Build runtests number:None results:success>.startBuild
+2022-07-27 16:46:43+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:46:43+0800 [-] [Contact] Builder runtests started
+2022-07-27 16:46:43+0800 [-] acquireLocks(worker <Worker 'example-worker'>, locks [])
+2022-07-27 16:46:44+0800 [-] starting build <Build runtests number:69 results:success>.. pinging the worker <WorkerForBuilder builder='runtests' worker='example-worker' state=BUILDING>
+2022-07-27 16:46:44+0800 [-] sending ping
+2022-07-27 16:46:44+0800 [Broker,0,127.0.0.1] ping finished: success
+2022-07-27 16:46:44+0800 [-] <RemoteShellCommand '['git', '--version']'>: RemoteCommand.run [0]
+2022-07-27 16:46:44+0800 [-] command '['git', '--version']' in dir 'build'
+2022-07-27 16:46:44+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', '--version']'> rc=0
+2022-07-27 16:46:44+0800 [-] <RemoteCommand 'stat' at 116594912>: RemoteCommand.run [1]
+2022-07-27 16:46:44+0800 [Broker,0,127.0.0.1] <RemoteCommand 'stat' at 116594912> rc=2
+2022-07-27 16:46:44+0800 [-] <RemoteCommand 'listdir' at 109139112>: RemoteCommand.run [2]
+2022-07-27 16:46:44+0800 [Broker,0,127.0.0.1] <RemoteCommand 'listdir' at 109139112> rc=0
+2022-07-27 16:46:44+0800 [-] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'>: RemoteCommand.run [3]
+2022-07-27 16:46:44+0800 [-] command '['git', 'cat-file', '-e', 'HEAD']' in dir 'build'
+2022-07-27 16:46:44+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'cat-file', '-e', 'HEAD']'> rc=0
+2022-07-27 16:46:44+0800 [-] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'>: RemoteCommand.run [4]
+2022-07-27 16:46:44+0800 [-] command '['git', 'checkout', '-f', 'HEAD']' in dir 'build'
+2022-07-27 16:46:45+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-f', 'HEAD']'> rc=0
+2022-07-27 16:46:45+0800 [-] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'>: RemoteCommand.run [5]
+2022-07-27 16:46:45+0800 [-] command '['git', 'checkout', '-B', 'master']' in dir 'build'
+2022-07-27 16:46:45+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-B', 'master']'> rc=0
+2022-07-27 16:46:45+0800 [-] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'>: RemoteCommand.run [6]
+2022-07-27 16:46:45+0800 [-] command '['git', 'rev-parse', 'HEAD']' in dir 'build'
+2022-07-27 16:46:45+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'> rc=0
+2022-07-27 16:46:45+0800 [-] Got Git revision 7f8e719e30f3f6b98558541d21dc8b589a4131be
+2022-07-27 16:46:45+0800 [-] releaseLocks(Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental')): []
+2022-07-27 16:46:45+0800 [-]  step 'git' complete: success (None)
+2022-07-27 16:46:45+0800 [-] <RemoteShellCommand '['trial', 'hello']'>: RemoteCommand.run [7]
+2022-07-27 16:46:45+0800 [-] command '['trial', 'hello']' in dir 'build'
+2022-07-27 16:46:46+0800 [Broker,0,127.0.0.1] <RemoteShellCommand '['trial', 'hello']'> rc=0
+2022-07-27 16:46:46+0800 [-] releaseLocks(ShellCommand(command=['trial', 'hello'], env={'PYTHONPATH': '.'})): []
+2022-07-27 16:46:46+0800 [-]  step 'shell' complete: success (None)
+2022-07-27 16:46:46+0800 [-]  <Build runtests number:69 results:success>: build finished
+2022-07-27 16:46:46+0800 [-] releaseLocks(<Worker 'example-worker'>): []
+2022-07-27 16:46:47+0800 [-] sending mail (1092 bytes) to ['351176904@qq.com']
+2022-07-27 16:46:47+0800 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x070650E8>
+2022-07-27 16:46:48+0800 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x070650E8>
+2022-07-27 16:47:46+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=60100)
+2022-07-27 16:47:47+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=60103)
+2022-07-27 16:47:47+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=60099)
+2022-07-27 16:47:47+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=60102)
+2022-07-27 16:47:47+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=60104)
+2022-07-27 17:20:41+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61024)
+2022-07-27 17:20:43+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61013)
+2022-07-27 17:20:43+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61023)
+2022-07-27 17:20:43+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61014)
+2022-07-27 18:10:57+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61876)
+2022-07-27 18:10:57+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61875)
+2022-07-27 18:10:57+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61885)
+2022-07-27 18:10:57+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61874)
+2022-07-27 18:10:57+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61884)
+2022-07-27 18:10:57+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=61877)
+2022-07-27 18:12:16+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62006)
+2022-07-27 18:12:26+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62007)
+2022-07-27 18:12:26+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62010)
+2022-07-27 18:12:26+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62008)
+2022-07-27 18:12:28+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62009)
+2022-07-27 18:16:45+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62116)
+2022-07-27 18:16:45+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62117)
+2022-07-27 18:16:51+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62114)
+2022-07-27 18:16:51+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62115)
+2022-07-27 18:21:04+0800 [-] Loading buildbot.tac...
+2022-07-27 18:21:06+0800 [-] Loaded.
+2022-07-27 18:21:06+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 18:21:06+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 18:21:06+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 18:21:06+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 18:21:06+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 18:21:06+0800 [-] setting database journal mode to 'wal'
+2022-07-27 18:21:06+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 18:21:07+0800 [-] adding 2 new services, removing 0
+2022-07-27 18:21:07+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06741C28>
+2022-07-27 18:21:07+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 18:21:07+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:21:07+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:21:07+0800 [-] adding 2 new builders, removing 0
+2022-07-27 18:21:07+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 18:21:07+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 18:21:07+0800 [-] initializing www plugin 'console_view'
+2022-07-27 18:21:07+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 18:21:07+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 18:21:07+0800 [-] initializing www plugin 'waterfall_view'
+2022-07-27 18:21:07+0800 [-] initializing www plugin 'console_view'
+2022-07-27 18:21:07+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 18:21:07+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 18:21:09+0800 [-] BuildbotSite starting on 8010
+2022-07-27 18:21:09+0800 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x06769A48>
+2022-07-27 18:21:09+0800 [-] adding 2 new workers, removing 0
+2022-07-27 18:21:09+0800 [-] PBServerFactory starting on 9989
+2022-07-27 18:21:09+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x067A18C8>
+2022-07-27 18:21:09+0800 [-] BuildMaster is running
+2022-07-27 18:21:09+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=62254)
+2022-07-27 18:21:09+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 18:21:09+0800 [-] bot attached
+2022-07-27 18:21:09+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 18:21:41+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 18:22:15+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.62.0.40', port=62255)
+2022-07-27 18:22:16+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62253)
+2022-07-27 18:22:18+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62259)
+2022-07-27 18:22:33+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62258)
+2022-07-27 18:24:43+0800 [-] Loading buildbot.tac...
+2022-07-27 18:24:45+0800 [-] Loaded.
+2022-07-27 18:24:45+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 18:24:45+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 18:24:45+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 18:24:45+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 18:24:46+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 18:24:46+0800 [-] setting database journal mode to 'wal'
+2022-07-27 18:24:46+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 18:24:46+0800 [-] adding 2 new services, removing 0
+2022-07-27 18:24:46+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06876850>
+2022-07-27 18:24:46+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 18:24:46+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:24:46+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:24:46+0800 [-] adding 2 new builders, removing 0
+2022-07-27 18:24:46+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 18:24:46+0800 [-] No web server configured on this master
+2022-07-27 18:24:46+0800 [-] adding 2 new workers, removing 0
+2022-07-27 18:24:46+0800 [-] PBServerFactory starting on 9989
+2022-07-27 18:24:46+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x068C2838>
+2022-07-27 18:24:46+0800 [-] BuildMaster is running
+2022-07-27 18:24:47+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=62332)
+2022-07-27 18:24:47+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 18:24:47+0800 [-] bot attached
+2022-07-27 18:24:47+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 18:25:18+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 18:25:34+0800 [-] Loading buildbot.tac...
+2022-07-27 18:25:36+0800 [-] Loaded.
+2022-07-27 18:25:36+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 18:25:36+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 18:25:36+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 18:25:36+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 18:25:36+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 18:25:36+0800 [-] setting database journal mode to 'wal'
+2022-07-27 18:25:36+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 18:25:36+0800 [-] adding 2 new services, removing 0
+2022-07-27 18:25:36+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06907AF0>
+2022-07-27 18:25:36+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 18:25:36+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:25:36+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:25:36+0800 [-] adding 2 new builders, removing 0
+2022-07-27 18:25:36+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 18:25:37+0800 [-] initializing www plugin 'console_view'
+2022-07-27 18:25:37+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 18:25:37+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 18:25:37+0800 [-] NOTE: www plugin 'waterfall_view' is installed but not configured
+2022-07-27 18:25:37+0800 [-] initializing www plugin 'console_view'
+2022-07-27 18:25:37+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 18:25:37+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 18:25:37+0800 [-] NOTE: www plugin 'waterfall_view' is installed but not configured
+2022-07-27 18:25:37+0800 [-] BuildbotSite starting on 8010
+2022-07-27 18:25:37+0800 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x0691E6A0>
+2022-07-27 18:25:37+0800 [-] adding 2 new workers, removing 0
+2022-07-27 18:25:37+0800 [-] PBServerFactory starting on 9989
+2022-07-27 18:25:37+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x0695B370>
+2022-07-27 18:25:37+0800 [-] BuildMaster is running
+2022-07-27 18:25:37+0800 [Broker,0,127.0.0.1] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=62384)
+2022-07-27 18:25:37+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 18:25:37+0800 [-] bot attached
+2022-07-27 18:25:37+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 18:26:10+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 18:26:39+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62386)
+2022-07-27 18:26:39+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62387)
+2022-07-27 18:27:18+0800 [-] Loading buildbot.tac...
+2022-07-27 18:27:20+0800 [-] Loaded.
+2022-07-27 18:27:20+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 18:27:20+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 18:27:20+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 18:27:20+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 18:27:20+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 18:27:20+0800 [-] setting database journal mode to 'wal'
+2022-07-27 18:27:20+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 18:27:21+0800 [-] adding 2 new services, removing 0
+2022-07-27 18:27:21+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06EB6C10>
+2022-07-27 18:27:21+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 18:27:21+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:27:21+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:27:21+0800 [-] adding 2 new builders, removing 0
+2022-07-27 18:27:21+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 18:27:21+0800 [-] No web server configured on this master
+2022-07-27 18:27:21+0800 [-] adding 2 new workers, removing 0
+2022-07-27 18:27:23+0800 [-] PBServerFactory starting on 9989
+2022-07-27 18:27:23+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x06ED2B20>
+2022-07-27 18:27:23+0800 [-] BuildMaster is running
+2022-07-27 18:27:23+0800 [-] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=62461)
+2022-07-27 18:27:23+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 18:27:23+0800 [-] bot attached
+2022-07-27 18:27:23+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 18:27:58+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 18:28:19+0800 [-] Loading buildbot.tac...
+2022-07-27 18:28:21+0800 [-] Loaded.
+2022-07-27 18:28:21+0800 [-] twistd 22.4.0 (d:\buildbot-test\master\venv\scripts\python.exe 3.8.10) starting up.
+2022-07-27 18:28:21+0800 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2022-07-27 18:28:21+0800 [-] Starting BuildMaster -- buildbot.version: 3.5.0
+2022-07-27 18:28:21+0800 [-] Loading configuration from 'D:\\buildbot-test\\master\\master\\master.cfg'
+2022-07-27 18:28:22+0800 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-07-27 18:28:22+0800 [-] setting database journal mode to 'wal'
+2022-07-27 18:28:22+0800 [-] doing housekeeping for master 1 LAPTOP-3AGQ5VTQ:D:\buildbot-test\master\master
+2022-07-27 18:28:22+0800 [-] adding 2 new services, removing 0
+2022-07-27 18:28:22+0800 [-] Starting factory <buildbot.reporters.irc.IrcStatusFactory object at 0x06532A78>
+2022-07-27 18:28:22+0800 [-] adding 2 new change_sources, removing 0
+2022-07-27 18:28:22+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:28:22+0800 [-] gitpoller: using workdir 'D:\buildbot-test\master\master\gitpoller-workdir'
+2022-07-27 18:28:22+0800 [-] adding 2 new builders, removing 0
+2022-07-27 18:28:22+0800 [-] adding 4 new schedulers, removing 0
+2022-07-27 18:28:22+0800 [-] initializing www plugin 'console_view'
+2022-07-27 18:28:22+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 18:28:22+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 18:28:22+0800 [-] NOTE: www plugin 'waterfall_view' is installed but not configured
+2022-07-27 18:28:22+0800 [-] initializing www plugin 'console_view'
+2022-07-27 18:28:22+0800 [-] initializing www plugin 'grid_view'
+2022-07-27 18:28:22+0800 [-] initializing www plugin 'wsgi_dashboards'
+2022-07-27 18:28:22+0800 [-] NOTE: www plugin 'waterfall_view' is installed but not configured
+2022-07-27 18:28:22+0800 [-] BuildbotSite starting on 8010
+2022-07-27 18:28:22+0800 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x067C1FB8>
+2022-07-27 18:28:22+0800 [-] adding 2 new workers, removing 0
+2022-07-27 18:28:22+0800 [-] PBServerFactory starting on 9989
+2022-07-27 18:28:22+0800 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x067CFC88>
+2022-07-27 18:28:22+0800 [-] BuildMaster is running
+2022-07-27 18:28:22+0800 [-] worker 'example-worker' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=62528)
+2022-07-27 18:28:22+0800 [Broker,0,127.0.0.1] Got workerinfo from 'example-worker'
+2022-07-27 18:28:22+0800 [-] bot attached
+2022-07-27 18:28:22+0800 [Broker,0,127.0.0.1] Worker example-worker attached to runtests
+2022-07-27 18:28:54+0800 [IRC,IrcStatusBot] Joined #zqchannel
+2022-07-27 18:44:19+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62726)
+2022-07-27 18:44:21+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62725)
+2022-07-27 18:44:21+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62730)
+2022-07-27 18:46:22+0800 [Broker,0,127.0.0.1] Worker.detached(example-worker)
+2022-07-27 18:46:22+0800 [Broker,0,127.0.0.1] releaseLocks(<Worker 'example-worker'>): []
+2022-07-27 18:46:22+0800 [-] Worker example-worker detached from runtests
+2022-07-27 18:47:30+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62819)
+2022-07-27 18:47:30+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62820)
+2022-07-27 18:47:30+0800 [-] Timing out client: IPv4Address(type='TCP', host='192.168.11.100', port=62822)
+2022-07-28 06:28:31+0800 [-] gitpoller: processing changes from "https://github.com/buildbot/hello-world.git"
+2022-07-28 06:28:31+0800 [-] gitpoller: processing changes from "https://github.com/ChungChyi/My-machine-learning-course-project.git"
