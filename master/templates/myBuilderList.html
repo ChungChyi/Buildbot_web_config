@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BuildSetting</title>
+</head>
+<body>
+
+<table class="table">
+<!--    {% for attribute in masters %}-->
+<!--        {{attribute}}-->
+<!--        <br>-->
+<!--        {{attribute.name}}-->
+<!--        {% set key = attribute.name %}-->
+<!--        {{ key }}-->
+<!--    {% endfor %}-->
+
+    <tr>
+        {% for builder in builders %}
+        <th>
+<!--            masterids:{{builder.masterids}}-->
+            masterName:
+            {% for attribute in masters %}
+                {% if attribute.masterid in builder.masterids%}
+                        {{attribute.name}}
+                {% endif %}
+            {% endfor %}
+            <br>
+            builderName:{{builder.name}}
+        </th>
+        {% endfor %}
+    </tr>
+
+    {% for build in builds %}
+    <tr>
+        {% for builder in builders %}
+        <th>
+            {% if build.builderid == builder.builderid %}
+<!--                {% for attribute in build %}-->
+<!--                    {{attribute}}: {{build[attribute]}}-->
+<!--                <br>-->
+<!--                {% endfor %}-->
+                started_at: {{build.started_at}}
+            <br>
+                complete_at: {{build.complete_at}}
+                <buildsticker buildid="{{build.buildid}}"/>
+            {% endif %}
+        </th>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>

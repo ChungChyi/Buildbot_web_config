@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Menu</title>
+    <!--    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">-->
+    <style>
+      p {
+        margin: auto;
+      }
+      body {
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      table,
+      td,
+      th {
+        border: 1px solid green;
+        border-collapse: collapse;
+        margin: 5%;
+        padding: 5px;
+      }
+      h4 {
+        margin: 5px;
+      }
+      li.do {
+        display: inline-block;
+      }
+      div.do {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h4>Builders:</h4>
+      <ul>
+        <li>
+          <a href="{{ url_for('buildercreate') }}" target="_blank"
+            ><em>Create a builder</em></a
+          >
+        </li>
+        <li>
+          <a href="{{ url_for('builderdelete') }}" target="_blank"
+            ><em>Delete for a builder</em></a
+          >
+        </li>
+        <li>
+          <a href="{{ url_for('builderread') }}" target="_blank"
+            ><em>Read for builders</em></a
+          >
+        </li>
+        <li>
+          <a href="{{ url_for('builderupdate') }}" target="_blank"
+            ><em>Update for a builder</em></a
+          >
+        </li>
+        <li>
+          <a href="{{ url_for('BuilderPriority') }}" target="_blank"
+            ><em>Set for BuilderPriority</em></a
+          >
+        </li>
+
+        <li>...</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Workers:</h4>
+      <ul>
+        <li>
+          <a href="{{ url_for('workercreate') }}" target="_blank"
+            ><em>Create a worker</em></a
+          >
+        </li>
+        <li>...</li>
+      </ul>
+    </div>
+    <h4>ChangeSource:</h4>
+    <ul>
+      <li>
+        <a href="{{ url_for('ChangeSourceCreate') }}" target="_blank"
+          ><em>Create a ChangeSource</em></a
+        >
+      </li>
+      <li>...</li>
+    </ul>
+    <h4>Scheduler:</h4>
+    <ul>
+      <li>
+        <a href="{{ url_for('SchedulerCreate') }}" target="_blank"
+          ><em>Create a Scheduler</em></a
+        >
+      </li>
+      <li>...</li>
+    </ul>
+    <h4>Build:</h4>
+    <ul>
+      <li>
+        <a href="{{ url_for('buildsearch') }}" target="_blank"
+          ><em>Search for a build</em></a
+        >
+      </li>
+      <li>...</li>
+    </ul>
+    <h4>OtherConfig:</h4>
+    <ul>
+      <li>
+        <a href="{{ url_for('titleupdate') }}" target="_blank"
+          ><em>Update for title&titleURL</em></a
+        >
+      </li>
+      <li>...</li>
+    </ul>
+
+    <!-- <p>
+      CREATE:
+      <a href="{{ url_for('buildercreate') }}" target="_blank"
+        ><em>Create a builder</em></a
+      >,
+      <a href="{{ url_for('workercreate') }}" target="_blank"
+        ><em>Create a worker</em></a
+      >,
+      <a href="{{ url_for('ChangeSourceCreate') }}" target="_blank"
+        ><em>Create a ChangeSource</em></a
+      >,
+      <a href="{{ url_for('SchedulerCreate') }}" target="_blank"
+        ><em>Create a Scheduler</em></a
+      >
+    </p>
+    <br />
+    <p>
+      READ:
+      <a href="{{ url_for('buildsearch') }}" target="_blank"
+        ><em>Search for a build</em></a
+      >
+    </p>
+    <br />
+    <p>
+      UPDATE:
+      <a href="{{ url_for('titleupdate') }}" target="_blank"
+        ><em>Update for title&titleURL</em></a
+      >
+    </p>
+    <br />
+    <p>
+      DELETE:
+      <a href="{{ url_for('builderdelete') }}" target="_blank"
+        ><em>Delete for builder</em></a
+      >
+    </p>
+    <br />
+    <p>
+      OTHERS:
+      <a href="{{ url_for('BuilderPriority') }}" target="_blank"
+        ><em>Set for BuilderPriority</em></a
+      >
+    </p> -->
+
+    <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer>
+  </body>
+</html>

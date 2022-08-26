@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CreateForScheduler</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='icon-create.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+    />
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid green;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
+      /* 页面整体 */
+      body {
+        margin: auto;
+        max-width: 500px;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      input {
+        width: 100%;
+      }
+
+      input.radio {
+        width: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    {% for message in get_flashed_messages() %}
+    <div class="alert">{{ message }}</div>
+    {% endfor %}
+
+    <form method="POST">
+      Create a SingleBranchScheduler
+      <br />
+      <label for="name">name:</label>
+      <input type="text" name="name" autocomplete="off" id="name" required />
+      <label for="buildernames">builderNames:</label>
+      <input
+        type="text"
+        name="buildernames"
+        autocomplete="off"
+        id="buildernames"
+        required
+      />
+      <label for="branch">branch:</label>
+      <input
+        type="text"
+        name="branch"
+        autocomplete="off"
+        id="branch"
+        required
+      />
+      <br />
+
+      <label for="treeStableTimer">treeStableTimer:</label>
+      <input
+        type="text"
+        name="treeStableTimer"
+        autocomplete="off"
+        id="treeStableTimer"
+        required
+      />
+      <br />
+      <input
+        class="btn"
+        type="submit"
+        name="submit"
+        value="CreateSingleBranch"
+      />
+      <br />
+      <br />
+    </form>
+
+    <form method="POST">
+      Create a PeriodicScheduler
+      <br />
+      <label for="name">name:</label>
+      <input type="text" name="name" autocomplete="off" id="name" required />
+      <label for="buildernames">builderNames:</label>
+      <input
+        type="text"
+        name="buildernames"
+        autocomplete="off"
+        id="buildernames"
+        required
+      />
+      <label for="periodicBuildTimer">periodicBuildTimer:</label>
+      <input
+        type="text"
+        name="periodicBuildTimer"
+        autocomplete="off"
+        id="periodicBuildTimer"
+        required
+      />
+      <br />
+      <input class="btn" type="submit" name="submit" value="CreatePeriodic" />
+      <br />
+      <br />
+    </form>
+    <form method="POST">
+      Create a ForceScheduler
+      <br />
+      <label for="name">name:</label>
+      <input type="text" name="name" autocomplete="off" id="name" required />
+      <label for="buildernames">builderNames:</label>
+      <input
+        type="text"
+        name="buildernames"
+        autocomplete="off"
+        id="buildernames"
+        required
+      />
+      <br />
+
+      <input class="btn" type="submit" name="submit" value="CreateForce" />
+      <br />
+      <br />
+    </form>
+    <!-- <form method="POST">
+      Create a NightlyScheduler
+      <br />
+      <label for="name">name:</label>
+      <input type="text" name="name" autocomplete="off" id="name" required />
+      <label for="buildernames">builderNames:</label>
+      <input
+        type="text"
+        name="buildernames"
+        autocomplete="off"
+        id="buildernames"
+        required
+      />
+      <label for="dayOfWeek">dayOfWeek:</label>
+      <input
+        type="text"
+        name="dayOfWeek"
+        autocomplete="off"
+        id="dayOfWeek"
+        required
+      />
+      <br />
+
+      <label for="hour">hour:</label>
+      <input type="text" name="hour" autocomplete="off" id="hour" required />
+      <br />
+
+      <label for="minute">minute:</label>
+      <input
+        type="text"
+        name="minute"
+        autocomplete="off"
+        id="minute"
+        required
+      />
+      <br />
+      <input
+        class="radio"
+        type="radio"
+        name="onlychange"
+        value="Yes"
+      />onlyIfChanged
+      <br />
+      <input class="radio" type="radio" name="onlychange" value="No" />always
+      <br />
+
+      <input
+        class="btn"
+        type="submit"
+        name="submit"
+        value="CreateNightlyBranch"
+      />
+      <br />
+      <br />
+    </form> -->
+
+    <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer>
+
+    <br />
+  </body>
+</html>

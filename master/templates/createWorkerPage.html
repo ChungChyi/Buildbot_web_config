@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CreateForWorker</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='icon-create.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+    />
+    <style>
+      body {
+        margin: auto;
+        max-width: 1000px;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    {% for message in get_flashed_messages() %}
+    <div class="alert">{{ message }}</div>
+    {% endfor %} Create a worker
+    <br />
+    <br />
+
+    <form onsubmit="return validate()" method="POST">
+      <label for="workername">WorkerName:</label>
+      <input
+        type="text"
+        name="workername"
+        autocomplete="off"
+        id="workername"
+        required
+      />
+      <label for="workerpw">Password:</label>
+      <input
+        type="password"
+        name="workerpw"
+        autocomplete="off"
+        id="workerpw"
+        required
+      />
+      <label for="repeatedpw">Repeat:</label>
+      <input
+        type="password"
+        name="repeatedpw"
+        autocomplete="off"
+        id="repeatedpw"
+        required
+      />
+      <input class="btn" type="submit" name="submit" value="Create" />
+    </form>
+    <script>
+      function validate() {
+        var n1 = document.getElementById("workerpw");
+        var n2 = document.getElementById("repeatedpw");
+        if (n1.value != "" && n2.value != "") {
+          if (n1.value == n2.value) {
+            return true;
+          }
+        }
+        alert("两次密码输入不同!");
+        return false;
+      }
+    </script>
+
+    <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SetForBuilderPriority</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='icon-create.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+    />
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid green;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
+      /* 页面整体 */
+      body {
+        margin: auto;
+        max-width: 300px;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      input {
+        width: 100%;
+      }
+
+      input.radio {
+        width: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    {% for message in get_flashed_messages() %}
+    <div class="alert">{{ message }}</div>
+    {% endfor %}
+
+    <form method="POST">
+      {% for builder in builders%} {{builder}}
+      <!-- <th>{{builder.description}}</th> -->
+
+      <input
+        type="number"
+        name="{{builder}}"
+        autocomplete="off"
+        id="{{builder}}"
+      />
+
+      <br />
+      {% endfor %}
+
+      <input class="btn" type="submit" name="submit" value="Set" />
+      <br />
+      <br />
+    </form>
+
+    <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer>
+
+    <br />
+  </body>
+</html>

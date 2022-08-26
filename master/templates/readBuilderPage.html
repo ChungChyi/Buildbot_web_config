@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ReadForBuilder</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='icon-search.png') }}"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+    /> -->
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid green;
+        border-collapse: collapse;
+        padding: 5px;
+        margin: 5%;
+      }
+      a:visited,
+      a:link {
+        color: dodgerblue;
+      }
+
+      a:hover,
+      a:focus {
+        color: deeppink;
+      }
+    </style>
+  </head>
+  <body>
+    {% for message in get_flashed_messages() %}
+    <div class="alert">{{ message }}</div>
+    {% endfor %}
+
+    <table>
+      <thead style="font-weight: bold">
+        <tr>
+          <td>name</td>
+          <td>workerNames</td>
+          <td>Soure</td>
+          <td>shellcommand</td>
+          <td>priority</td>
+          <td>schedulerNames</td>
+        </tr>
+      </thead>
+
+      {% for builder in buildersData %}
+      <tr>
+        {% for atr in builder %}
+        <td>{{atr}}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+
+    <br />
+    <br />
+
+    <!-- <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer> -->
+  </body>
+</html>

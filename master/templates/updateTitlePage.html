@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>UpdateForTitle</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='icon-update.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+    />
+    <style>
+      body {
+        margin: auto;
+        max-width: 700px;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="POST">
+      <label for="title">NewTitle:</label>
+      <input type="text" name="title" autocomplete="off" id="title" />
+      <label for="titleURL">NewTitleURL:</label>
+      <input type="text" name="titleURL" autocomplete="off" id="titleURL" />
+
+      <input class="btn" type="submit" name="submit" value="Update" />
+    </form>
+
+    <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer>
+  </body>
+</html>

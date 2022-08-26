@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SearchForBuild</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='icon-search.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+    />
+  </head>
+  <body>
+    {% for message in get_flashed_messages() %}
+    <div class="alert">{{ message }}</div>
+    {% endfor %}
+
+    <!--<img alt="Cat" class="cat" src="{{ url_for('static', filename='images/cat.jpg') }}">-->
+    Search for a Build by BuilderName and Buildid
+    <br />
+    <br />
+    <form method="POST">
+      <label for="buildername">BuilderName:</label>
+      <input
+        type="text"
+        name="buildername"
+        autocomplete="off"
+        id="buildername"
+        required
+      />
+      <label for="buildid">Buildid:</label>
+      <input
+        type="text"
+        name="buildid"
+        autocomplete="off"
+        id="buildid"
+        required
+      />
+      <input class="btn" type="submit" name="submit" value="Search" />
+    </form>
+
+    <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer>
+  </body>
+</html>

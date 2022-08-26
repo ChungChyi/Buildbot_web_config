@@ -134,3 +134,47 @@ c['db'] = {
 #                                    builderNames=['runtests'],
 #                                    port=5555,
 #                                    userpass=[('sampleuser','samplepass')]))
+
+
+a
+for builder in c['builders']:
+    if builder.name == 'my_runtests':
+        c['builders'].remove(builder)
+for builder in c['builders']:
+    if builder.name == 'my_runtests':
+        c['builders'].remove(builder)
+for builder in c['builders']:
+    if builder.name == 'Zj':
+        c['builders'].remove(builder)
+for builder in c['builders']:
+    if builder.name == 'Zj':
+        c['builders'].remove(builder)
+        break
+factory = util.BuildFactory()
+factory.addStep(steps.Git(repourl=https://github.com/buildbot/hello-world.git, mode='incremental'))
+factory.addStep(steps.ShellCommand(command=['trial', 'hello'],
+                                   env='PYTHONPATH': '.'))
+c['builders'].append(
+    util.BuilderConfig(name=builderABC,
+      workernames=['A', 'B'],
+      factory=factory))
+factory = util.BuildFactory()
+factory.addStep(steps.Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental'))
+factory.addStep(steps.ShellCommand(command=['trial', 'hello'],
+                                   env="PYTHONPATH": "."))
+c['builders'].append(
+    util.BuilderConfig(name='builderABC',
+      workernames=['A', 'B'],
+      factory=factory))
+factory = util.BuildFactory()
+factory.addStep(steps.Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental'))
+factory.addStep(steps.ShellCommand(command=['trial', 'hello'],
+                                   env="PYTHONPATH": "."))
+c['builders'].append(
+    util.BuilderConfig(name='builderABC',
+      workernames=['A', 'B'],
+      factory=factory))
+factory = util.BuildFactory()
+factory.addStep(steps.Git(repourl='https://github.com/buildbot/hello-world.git', mode='incremental'))
+factory.addStep(steps.ShellCommand(command=['trial', 'hello'],
+                                   env={"PYTHONPATH": "."}))

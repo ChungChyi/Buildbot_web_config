@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DeleteForBuilder</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='icon-remove.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+    />
+    <style>
+      body {
+        margin: auto;
+        max-width: 1000px;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="POST">
+      <label for="buildername">BuilderName:</label>
+      <input
+        type="text"
+        name="buildername"
+        autocomplete="off"
+        id="buildername"
+        required
+      />
+
+      <input class="btn" type="submit" name="submit" value="Delete" />
+    </form>
+
+    <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer>
+  </body>
+</html>

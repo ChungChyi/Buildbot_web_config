@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CreateForChangeSource</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='icon-create.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+    />
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid green;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
+      /* 页面整体 */
+      body {
+        margin: auto;
+        max-width: 500px;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      input {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    {% for message in get_flashed_messages() %}
+    <div class="alert">{{ message }}</div>
+    {% endfor %}
+    <br />
+    <br />
+    <form method="POST">
+      <label for="repourl">repourl:</label>
+      <input
+        type="text"
+        name="repourl"
+        autocomplete="off"
+        id="repourl"
+        required
+      />
+      <label for="branches">branches:</label>
+      <input
+        type="text"
+        name="branches"
+        autocomplete="off"
+        id="branches"
+        required
+      />
+      <label for="pollInterval">pollInterval:</label>
+      <input
+        type="text"
+        name="pollInterval"
+        autocomplete="off"
+        id="pollInterval"
+        required
+      />
+      <br />
+
+      <input class="btn" type="submit" name="submit" value="Create" />
+
+      <br />
+      <br />
+    </form>
+    <footer>
+      <small
+        >&copy; 2022 <a href="https://github.com/ChungChyi/">GitHub</a></small
+      >
+      <small
+        ><a href="http://docs.buildbot.net/current/index.html"
+          >BuildbotDoc</a
+        ></small
+      >
+    </footer>
+    <br />
+    <br />
+  </body>
+</html>
