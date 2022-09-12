@@ -18,5 +18,9 @@ myWebUI: Use the flask framework for web development. The html files are contain
 sql_buildbot.py: It contains the designed table object.
 
 # Web UI
+<img src="https://github.com/ChungChyi/Buildbot_web_config/blob/main/img_web_config/op_menu.jpg" width="200"  alt="操作菜单"/><br/>
+<img src="https://github.com/ChungChyi/Buildbot_web_config/blob/main/img_web_config/create_builder.jpg" width="200"  alt="创建Builder页面"/><br/>
 
 ![images](img_web_config/op_menu.jpg)
+
+![images](img_web_config/create_builder.jpg)
